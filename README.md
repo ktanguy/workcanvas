@@ -33,8 +33,8 @@ Replace yourusername with your Docker Hub username and yourwebapp with the name 
 Run a Container Using the Image:
 
 
-docker run -d -p 3000:3000 yourusername/yourwebapp
-This command will run the container in detached mode (-d) and map port 3000 of the container to port 3000 of your local machine (-p 3000:3000).
+docker run -d -p 8081:80 yourusername/yourwebapp
+This command will run the container in detached mode (-d) and map port 8081 of the container to port 8081 of your local machine (-p 8081:80).
 
 Access the Application:
 Open a web browser and navigate to http://localhost:8081.
