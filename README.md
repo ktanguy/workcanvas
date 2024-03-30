@@ -21,7 +21,7 @@ Start the Application:
 
 npm start
 Access the Application:
-Open a web browser and navigate to http://localhost:3000.
+Open a web browser and navigate to http://localhost:8081.
 
 Building the Docker Image and Running a Container
 Build the Docker Image:
