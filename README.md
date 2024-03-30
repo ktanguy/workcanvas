@@ -37,7 +37,7 @@ docker run -d -p 3000:3000 yourusername/yourwebapp
 This command will run the container in detached mode (-d) and map port 3000 of the container to port 3000 of your local machine (-p 3000:3000).
 
 Access the Application:
-Open a web browser and navigate to http://localhost:3000.
+Open a web browser and navigate to http://localhost:8081.
 
 Assumptions or Decisions Made During Development
 Base Image: Chose the official Node.js image as the base image for simplicity and compatibility.
